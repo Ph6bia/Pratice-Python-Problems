@@ -1,0 +1,5 @@
+name = input('Name: ')
+age = int(input('Age: '))
+print(f'{name}, you will turn 100 in {100 - age} years.')
+copies = int(input('How many copies? '))
+print(f'You will turn 100 in {100 - age} \n' * copies)
